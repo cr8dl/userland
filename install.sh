@@ -3,6 +3,9 @@
 sudo rm -rf /tmp/skel
 sudo cp -a skel /tmp
 
+# microk8s examples
+sudo cp -a microk8s /tmp/skel/
+
 # zsh goodies
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git /tmp/skel/.config/zsh/zsh-autosuggestions 
 sudo 
