@@ -1,0 +1,7 @@
+
+alias bat=batcat
+alias less=bat
+alias vim=nvim
+alias vi=nvim
+alias nv=nvim
+alias kubectl="microk8s kubectl"

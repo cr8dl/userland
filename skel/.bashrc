@@ -116,5 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Aliases
+source ~/.aliases
+
 eval "$(starship init bash)"
 

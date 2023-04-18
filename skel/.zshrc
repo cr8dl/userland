@@ -8,16 +8,7 @@ SAVEHIST=1000
 autoload -Uz compinit
 compinit
 
-# Alias
-if [[ `uname` == "Linux" ]] ; then
-    # Ubuntu/Debian renamed bat
-    alias bat=batcat
-fi
 
-alias less=bat
-alias vim=nvim
-alias vi=nvim
-alias nv=nvim
 export EDITOR=vi
 eval "$(starship init zsh)"
 # pyenv
@@ -28,5 +19,9 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 
+# Aliases
+source ~/.aliases
+
+# Zsh autosuggestions
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
