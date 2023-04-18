@@ -1,17 +1,17 @@
 ## /etc/skel buildup
 
-rm -rf /tmp/skel
-cp -a skel /tmp
+sudo rm -rf /tmp/skel
+sudo cp -a skel /tmp
 
 # zsh goodies
-git clone https://github.com/zsh-users/zsh-autosuggestions.git /tmp/skel/.config/zsh/zsh-autosuggestions 
-
-# pyenv
-git clone https://github.com/pyenv/pyenv.git /tmp/skel/.pyenv
-git clone https://github.com/pyenv/pyenv-virtualenv.git /tmp/skel/.pyenv/plugins/pyenv-virtualenv
-
-# nvim sane starting point
-git clone https://github.com/nvim-lua/kickstart.nvim.git /tmp/skel/.config/nvim
+sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git /tmp/skel/.config/zsh/zsh-autosuggestions 
+sudo 
+sudo # pyenv
+sudo git clone https://github.com/pyenv/pyenv.git /tmp/skel/.pyenv
+sudo git clone https://github.com/pyenv/pyenv-virtualenv.git /tmp/skel/.pyenv/plugins/pyenv-virtualenv
+sudo 
+sudo # nvim sane starting point
+sudo git clone https://github.com/nvim-lua/kickstart.nvim.git /tmp/skel/.config/nvim
 
 # install /etc/skel
 sudo rm -rf /etc/skel
