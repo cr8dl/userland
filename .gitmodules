@@ -1,3 +1,6 @@
 [submodule "skel/.config/zsh/zsh-autosuggestions"]
 	path = skel/.config/zsh/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "skel/.pyenv"]
+	path = skel/.pyenv
+	url = https://github.com/pyenv/pyenv.git
