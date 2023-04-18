@@ -11,7 +11,7 @@ $python\
 $character"""
 
 [hostname]
-format = "[$username@$hostname ](green)"
+format = "[$username@$hostname on cr8dl.ai ](green)"
 ssh_only = false
 trim_at = ""
 
