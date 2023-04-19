@@ -8,12 +8,12 @@ sudo cp -a microk8s /tmp/skel/
 
 # zsh goodies
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git /tmp/skel/.config/zsh/zsh-autosuggestions 
-sudo 
-sudo # pyenv
+ 
+# pyenv
 sudo git clone https://github.com/pyenv/pyenv.git /tmp/skel/.pyenv
 sudo git clone https://github.com/pyenv/pyenv-virtualenv.git /tmp/skel/.pyenv/plugins/pyenv-virtualenv
-sudo 
-sudo # nvim sane starting point
+ 
+# nvim sane starting point
 sudo git clone https://github.com/nvim-lua/kickstart.nvim.git /tmp/skel/.config/nvim
 
 # install /etc/skel
