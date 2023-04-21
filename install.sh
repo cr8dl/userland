@@ -16,9 +16,16 @@ sudo git clone https://github.com/pyenv/pyenv-virtualenv.git /tmp/skel/.pyenv/pl
 # nvim sane starting point
 sudo git clone https://github.com/nvim-lua/kickstart.nvim.git /tmp/skel/.config/nvim
 
+# install code-server config
+sudo cp -a code-server /tmp/skel/.config/
+
+
+
 # install /etc/skel
 sudo rm -rf /etc/skel
 sudo mkdir /etc/skel
 sudo cp -a /tmp/skel /etc/
 sudo rm -rf /tmp/skel
 sudo chown -R root.root /etc/skel
+
+
